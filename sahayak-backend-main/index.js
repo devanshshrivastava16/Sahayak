@@ -6,7 +6,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const genAI = new GoogleGenerativeAI('AIzaSyDv7lN5iXebaebJ8nj10g3lOGWyqoESHso'); // Create client instance
+const genAI = new GoogleGenerativeAI('xxxxxxxxxxxxxxxxxxxxxxxxxxx'); // Create client instance
 
 app.post('/api/chat', async (req, res) => {
   try {
